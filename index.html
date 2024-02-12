@@ -1,0 +1,68 @@
+<!--
+[x] facebook
+[x] github
+[x] home
+[x] insta
+[-] twitter
+[-] yt
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body {
+            background-image: url(imagens/fundo-madeira.jpg);
+            background-position: center -500px;
+            background-repeat: no-repeat;
+        }
+        .fone {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        iframe {
+            width: 265px;
+            height: 464px;
+        }
+        .icones{
+            position: absolute;
+            right:  0px;
+            top: 0px;
+            padding: 10px;
+        }
+
+        div > a {
+            display: block;
+        }
+
+        a > img {
+            border-radius: 50%;
+            width: 70px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img class="fone"  src="imagens/frame-iphone.png" alt="ifone">
+
+    <iframe name="tela" class="fone" src="telas/home.html" frameborder="0"></iframe>
+
+    <div class="icones">
+        <a target="tela" href="telas/home.html"><img src="imagens/logo-home.jpg" alt=""></a>
+        <a target="tela" href="telas/facebook.html"><img src="imagens/logo-facebook.jpg" alt=""></a>
+        <a target="tela" href="telas/github.html"><img src="imagens/logo-github.jpg" alt=""></a>
+        <a target="tela" href="telas/instagram.html"><img src="imagens/logo-instagram.jpg" alt=""></a>
+        <a target="tela" href="telas/twitter.html"><img src="imagens/logo-twitter.jpg" alt=""></a>
+        <a target="tela" href="telas/youtube.html"><img src="imagens/logo-youtube.jpg" alt=""></a>
+    </div>
+</body>
+</html>
